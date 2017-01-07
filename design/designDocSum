@@ -1,0 +1,13 @@
+Design Documents
+
+
+The problem that I am solving is the lack of Mario Kart available in different forms than just Nintendo platforms. In doing so, I did my best to recreate the game play of Mario Kart and added the complexity of making my own controller. This controller simulates the Wii U tilt methods using buttons to active different parts of the game. 
+
+To begin the design, I laid out what functions or features can be reachable in the constraints of python and time. Which included the following:
+	One Map
+	One User racing against one AI
+	Time Trail
+	Item Boxes have limited choices
+	Limited Collision ability
+	Limited UI and Image quality
+See Competitive Analysis, Storyboard folder, and Term Project Proposal to read more about how I begin to lay out the function and what I took from other game types. I evolved to a lesser version than dreamt, but stayed true to the most part.

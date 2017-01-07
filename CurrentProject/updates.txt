@@ -1,0 +1,41 @@
+At TP1 I had:
+
+Acceleremater sending data to serial port
+Random python filing reading the serial port constantly
+Roaming Ralph implemented and manipulated to understand I knew how it all worked
+
+
+TP2 Updates:
+- Got main.py to read the accelerometer frame by frame
+- Added buttons to the accelerometer
+- Coded the Arduino Sketch so it will send the g and r values of 1 or 0 if going or reversing
+- Changed controls on the moveMario so that Mario can now move forward and reverse
+
+- Imported an actual track 
+- Built a UI with Tkinter (but can't get the final button to go to the play screen yet)
+- Got the camera controls to follow my actor even when turning left/right
+
+- Collission tracking working on an imported circuit - First I had to understand how the collision worked with
+  .egg which I had to add <Collide> {"command"} and rename the Group obejct to terrain
+- reverted to the Roaming Ralph model because it has the collision meshes in its .egg
+- Changes camera positionings
+- Alter the controls 
+- Got Direct GUI to work !!!!
+- Now I am making my UI interface with Direct GUI
+
+
+Updates since TP2:
+- added timing into the game
+- adding a count down to the beginning of the game
+- Added the AI to the map with specific node paths
+- adding a button to the hardware for future item release
+- implementing collision with correct egg files
+- Working around the pusher handler with item boxes and lap plane
+- Recreate the controller in a box
+- Created the item Box functions (mushroom/megaMush)
+- Developed working theory of the shell direction and throw
+- Adding Instruction page
+- Allowing the user to have key controls or controller controls
+- Created a recalibration of the controller object
+- Adding Music
+	 

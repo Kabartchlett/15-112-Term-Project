@@ -1,0 +1,111 @@
+A timesheet
+In your top-level project directory, include a file named "timesheet.txt". In this file, keep track of the time you spend on the project. There is no specific time requirement, and more time will not necessarily equate to a higher grade. Again, though, it is expected that you should invest at least 10 hours per week and 40 total hours to obtain a satisfactory grade. 
+
+
+
+Installing Panda3D/Blender and setting up an example: 
+	1hr
+Setting up Arduino and Accelerometer: 
+	0.5hr
+Connect Arduino with x,y,z coordinates from the accelerometer
+	1 hr
+
+	
+Nov. 17 - Took the exam then cried... so now I can start.
+	Correctly exporting and calling correct environment/using examples to create walking around my own model:
+		(Decided to use roaming ralph environment and the Mario actor)
+		2 hr
+Nov. 18 - Assuring that I know each piece of code used
+		- Going through tutorials learning Panda3D and manipulating my own code/file structure
+		- Messing with and learning the Camera and collision controls of the charactor
+		- worked on competitive analysis
+		2 hr
+Nov. 19 - Importing PySerial to use for the python communication with the arduino (real time)
+		- Developing the proposal
+		- Creating the storyboard
+		- Finishing Competitive Anaylisis
+		- Loading everything up as Code Artificats and cleaning up workspace
+		- Learning Tasks and taskManagers to have a serial port, xyz cooridinate move my player aroung the screen
+		4 hr
+Nov. 20 - Worked on my Global paper - No Tp progess
+Nov. 21 - Worked on Interp Revised Paper - No Tp progess
+Nov. 22 - Broke python because I was trying to install pygame and a changed the $PATH file 
+Nov. 23 - Spent a good 5 hours trying to fix my python
+		5 hrs of no progress
+Nov. 24 - Spend another 4 - 6 hours trying to fix python thinking I can't do anything until it's fixed! Can't run any 
+		  of my code
+		 5 hrs of no progress
+Nov. 25 - Python still broke
+Nov. 26 - Python still broke
+Nov. 27 - Spent all my time on Interp Essay & Python was still broke - No Tp progess
+Nov. 28 - Finally Rohan fixed my Python at 2pm in a matter of 30 seconds.
+		- Got main.py to read the accelerometer frame by frame
+		- Added buttons to the accelerometer
+		- Coded the Arduino Sketch so it will send the g and r values of 1 or 0 if going or reversing
+		- Changed controls on the moveMario so that Mario can now move forward and reverse
+		2:30pm till about 8 (5.5 hrs) then from about 9:30 to 12am (2.5)
+		8 hrs
+Nov. 29 - Imported an actual track 
+		- Built a UI with Tkinter (but can't get the final button to go to the play screen yet)
+		- Got the camera controls to follow my actor even when turning left/right
+		1pm to 4pm (3hrs) 6:30 to 10pm (3.5 hrs)
+		6.5 hrs
+Nov. 30 - Collission tracking working on an imported circuit - First I had to understand how the collision worked with
+		.egg which I had to add <Collide> {"command"} and rename the Group object to terrain
+		- reverted to the Roaming Ralph model because it has the collision meshes in its .egg
+		- Changes camera positioning
+		- Alter the controls 
+		- Got Direct GUI to work !!!!
+		- Now I am making my UI interface with Direct GUI
+		11 to 1 (2 hrs) then 2:30 to currently 7:30pm
+		7 hrs
+
+Dec. 1 - (Thurs.) - Fixing bugs
+		- added timing into the game
+		- adding a count down to the beginning of the game
+		5 hours
+
+Dec. 2 - (Fri) - Added the AI to the map with specific node paths
+		- Finding the node paths - specific to Luigi_Circuit took forever
+		2pm to 6pm
+		4 hours
+
+
+Dec. 3 - (Sat) - Lots of time reading about collision sphere solids
+		- adding a button to the hardware for future item release
+		(8pm to 12am)
+		4 hours
+
+Dec. 4 (Sunday)
+	- Spent majority of my time learning collision correctly
+	- implementing collision with correct egg files
+	- Working around the pusher handler with item boxes and lap plane
+	5pm to 9pm then 10pm to midnight
+	6 hours
+	
+Dec. 5 - Recreate the controller in a box
+	- Finished up some collision
+	(3pm - 7pm)
+	4 hours
+
+Dec. 6 - Created the item Box functions (mushroom/megaMush)
+	- Developed working theory of the shell direction and throw
+	(12pm to 4) then from 5 to 6 then 9 pm to 12am
+	7 hours
+
+Dec. 7 - Adding Instruction page
+	 Fine tuning all the features
+	Allowing the user to have key controls or controller controls
+	Created a recalibration of the controller object
+	(2pm to 6pm) + (9pm to 12am)
+	7 hours
+
+Dec. 8 - Adding Music
+	 Working on the Write-ups
+	Commenting and working on style
+	Working on write-ups for the final project
+	Creating the final vide
+	(12am to 4am)
+	4 hrs
+
+Total: 83.5 hours 

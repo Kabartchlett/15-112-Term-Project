@@ -1,0 +1,66 @@
+<CoordinateSystem> { Z-up } 
+<Material> mat_question_fx {
+  <Scalar> diffr { 1.000000 }
+  <Scalar> diffg { 1.000000 }
+  <Scalar> diffb { 1.000000 }
+  <Scalar> specr { 0.300000 }
+  <Scalar> specg { 0.300000 }
+  <Scalar> specb { 0.300000 }
+  <Scalar> shininess { 2.75 }
+  <Scalar> ambr { 0.000000 }
+  <Scalar> ambg { 0.000000 }
+  <Scalar> ambb { 0.000000 }
+  <Scalar> emitr { 0.000000 }
+  <Scalar> emitg { 0.000000 }
+  <Scalar> emitb { 0.000000 }
+}
+
+<Texture> Kd.023 {
+  "./tex/ef_hatenas.png"
+  <Scalar> envtype { MODULATE }
+  <Scalar> minfilter { LINEAR_MIPMAP_LINEAR }
+  <Scalar> magfilter { LINEAR_MIPMAP_LINEAR }
+  <Scalar> wrap { REPEAT }
+  <Scalar> alpha-file { "./tex/ef_hatenas.png" }
+  <Scalar> alpha-file-channel { 4 }
+}
+
+  <Group> polygon2 {
+    <Transform> {
+      <Matrix4> {
+        0.004000000189989805 0.0 0.0 0.0 
+        0.0 -6.516827633085143e-10 0.004000000189989805 0.0 
+        0.0 -0.004000000189989805 -6.516827633085143e-10 0.0 
+        40.0 -30.0 1.5 1.0 
+      }
+    }
+    
+    <VertexPool> polygon2 {
+    
+      <Vertex> 0 {39.902363 -29.891338 1.432284
+      <Normal> { 0.000000 0.844935 0.534868 }
+        <UV>  {
+          0.000000 1.000000 
+        }
+      }
+      <Vertex> 1 {39.891338 -30.000000 1.603937
+      <Normal> { 0.000000 0.844935 0.534868 }
+        <UV>  {
+          0.000000 1.000000 
+        }
+      }
+      <Vertex> 2 {40.103939 -29.891338 1.432284
+      <Normal> { 0.000000 0.844935 0.534868 }
+        <UV>  {
+          0.000000 1.000000 
+        }
+      }}
+    
+    
+    <Polygon> {
+      <TRef> { Kd.023 }
+      <MRef> { mat_question_fx }
+      <Normal> {0.000000 0.844935 0.534868}
+      <VertexRef> { 0 1 2 <Ref> { polygon2 }} 
+    }
+  }
